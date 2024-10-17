@@ -1,5 +1,11 @@
 .project-container {
-  width: 30vw;
+  width: 400px;
+}
+
+.project-img {
+  object-fit: cover;
+  max-height: 230px;
+  border-radius: 10px;
 }
 
 .description {
