@@ -8,7 +8,7 @@ interface ProjectProps {
 
 const Project = ( {name, desc, imgSrc}: ProjectProps ) => {
   return (
-    <div className="d-flex flex-column project-container m-3">
+    <div className="d-flex flex-column project-container m-2">
       <img src={imgSrc} className="project-img my-2"></img>
       <span>{name}</span>
       <span className="description">{desc}</span>

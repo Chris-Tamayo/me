@@ -7,10 +7,10 @@ import smartwalk from "../assets/smartwalk.png";
 
 const Projects = () => {
   return (
-    <div className="d-flex flex-row justify-content-center align-items-center flex-wrap">
+    <div className="d-flex flex-row justify-content-between align-items-start flex-wrap">
       <Project name="Gem.edu" desc="AI-Powered Academic Advisor and Tutor" imgSrc={gem} />
-      <Project name="Potenti" desc="Motion tracking PT recovery website" imgSrc={pt} />
-      <Project name="FoulPlay" desc="NBA ref reports webscraper to determine ref bias" imgSrc={nba} />
+      <Project name="Potenti" desc="PT recovery website w/ motion tracking wearables" imgSrc={pt} />
+      <Project name="NBA Ref Report Webscraper" desc="Determining ref bias in NBA playoff games" imgSrc={nba} />
       <Project name="InkSights" desc="Printer status dashboard via webscraper" imgSrc={printer} />
       <Project name="SmartWalk" desc="Safest pedestrian paths b/w two locations" imgSrc={smartwalk} />
     </div>
