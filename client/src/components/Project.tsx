@@ -10,8 +10,8 @@ const Project = ( {name, desc, imgSrc}: ProjectProps ) => {
   return (
     <div className="d-flex flex-column project-container m-2">
       <img src={imgSrc} className="project-img my-2"></img>
-      <span>{name}</span>
-      <span className="description">{desc}</span>
+      <span className="project-title">{name}</span>
+      <span>{desc}</span>
     </div>
   )
 }

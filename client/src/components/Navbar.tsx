@@ -23,14 +23,15 @@ const Navbar = () => {
 
   return (
     <div className="d-flex flex-row justify-content-between">
-      <p>{time} PDT</p>
-      <div className="d-flex flex-row">
+      <p className="time">{time} PDT</p>
+      <div className="links-container">
+        <span className="connect-span navbar-header navbar-link">Connect</span>
         <a target="new" href="https://www.linkedin.com/in/christopher-tamayo/" className="navbar-link">LinkedIn</a>
         <a target="new" href="mailto:chriswtamayo@gmail.com" className="navbar-link">Email</a>
         <a target="new" href="https://github.com/Chris-Tamayo" className="navbar-link">GitHub</a>
       </div>
-      <div className="d-flex flex-row">
-        <p className="me-5">Skills</p>
+      <div className="skills-container">
+        <span className="skills-span navbar-header">Skills</span>
         <div className="d-flex flex-column">
           <span>React</span>
           <span>JavaScript</span>
