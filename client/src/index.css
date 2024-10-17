@@ -49,3 +49,13 @@ a {
 a:hover {
   color: rgba(255, 255, 255, 0.75);
 }
+
+.app {
+  margin: var(--margin-md) var(--margin-xl);
+}
+
+@media (max-width: 425px) {
+  .app {
+    margin: var(--margin-md) var(--margin-lg);
+  }
+}

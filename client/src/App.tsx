@@ -4,7 +4,7 @@ import HomePage from './pages/HomePage'
 function App() {
   return (
     <>
-      <div className='mx-5 my-3'>
+      <div className='app'>
         <HomePage />
       </div>
     </>
