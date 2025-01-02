@@ -11,6 +11,10 @@
 
   --border-radius: 10px;
 
+  --font-size-small: 12px;
+  --font-size-medium: 14px;
+  --font-size-large: 16px;
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
 }

@@ -1,0 +1,10 @@
+.skill {
+  color: white;
+  background-color: var(--secondary-color);
+  font-weight: bold;
+  font-size: var(--font-size-small);
+  padding: var(--padding-small);
+  margin-right: var(--padding-small);
+  margin-bottom: var(--padding-small);
+  border-radius: 20px;
+}

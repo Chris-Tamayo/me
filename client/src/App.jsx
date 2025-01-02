@@ -1,6 +1,7 @@
 import './App.css'
 import Contact from './components/Contact/Contact'
 import Intro from './components/Intro/Intro'
+import Skills from './components/Skills/Skills'
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <div className="d-flex flex-column">
         <Intro />
         <Contact />
+        <Skills />
       </div>
     </div>
   )
