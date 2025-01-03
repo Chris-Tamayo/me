@@ -4,12 +4,44 @@
   background-color: var(--secondary-background-color);
   flex-grow: 1;
   margin: var(--padding-small);
+  font-size: var(--font-size-small);
 }
 
 .headshot-tile {
+  width: 0%;
   flex-grow: 1;
   aspect-ratio: 1 / 1;
   border-radius: var(--border-radius);
   background-color: var(--secondary-background-color);
   margin: var(--padding-small);
+}
+
+.headshot-tile img {
+  width: 100%;          /* Make image fill container */
+  height: 100%;         /* Make image fill container */
+  object-fit: cover;    /* Crop the image to fit the div */
+  border-radius: inherit; /* Ensures image follows parent's border-radius */
+}
+
+.contact-logo {
+  width: 30px;
+  height: 30px;
+  margin-top: var(--padding-small);
+  margin-bottom: 4px;
+}
+
+.linkedin-tile:hover {
+  background-color: #3f8db7;
+}
+
+.github-tile:hover {
+  background-color: #ba99ed;
+}
+
+.email-tile:hover {
+  background-color: #f97474;
+}
+
+.resume-tile:hover {
+  background-color: #FBD7D7;
 }
