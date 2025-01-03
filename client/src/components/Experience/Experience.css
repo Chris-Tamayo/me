@@ -1,0 +1,16 @@
+.experience {
+  font-size: var(--font-size-small);
+  border-bottom: solid #DDDDDD 1px;
+  padding: 4px 0 4px 0;
+}
+
+.company-logo {
+  width: 30px;
+  height: 30px;
+  margin-right: var(--padding-small);  
+  border-radius: 100%;
+}
+
+.dates {
+  color: var(--tertiary-color);
+}
