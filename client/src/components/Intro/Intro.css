@@ -1,3 +1,7 @@
 .name {
   color: var(--secondary-color);
 }
+
+.tile p {
+  margin: 0;
+}
