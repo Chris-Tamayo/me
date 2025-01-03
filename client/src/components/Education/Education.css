@@ -1,0 +1,14 @@
+.edu-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: var(--padding-small);  
+  border-radius: 100%;
+}
+
+.dates {
+  color: var(--tertiary-color);
+}
+
+p {
+  font-size: var(--font-size-small);
+}
