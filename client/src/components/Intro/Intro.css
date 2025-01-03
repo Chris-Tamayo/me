@@ -5,3 +5,7 @@
 .tile p {
   margin: 0;
 }
+
+.desc p {
+  font-size: var(--font-size-small);
+}

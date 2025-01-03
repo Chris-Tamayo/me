@@ -9,9 +9,12 @@ const Intro = () => {
   return (
     <div className="tile">
       <p><strong>Hi! I'm <span className="name">Christopher Tamayo</span></strong></p>
-      <p>• Based in Seattle, WA</p>
-      <p>• Software Development Engineer at Amazon</p>
-      <p>• {yoe}+ years of experience</p>
+      <div className="desc">
+        <p>• Based in Seattle, WA</p>
+        <p>• Software Development Engineer at Amazon</p>
+        <p>• {yoe}+ years of experience</p>
+      </div>
+      
     </div>
   )
 }
