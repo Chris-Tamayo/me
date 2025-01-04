@@ -1,0 +1,8 @@
+.project-img {
+  object-fit: cover;
+  max-height: 150px;
+}
+
+.project-desc {
+  color: var(--tertiary-color);
+}
