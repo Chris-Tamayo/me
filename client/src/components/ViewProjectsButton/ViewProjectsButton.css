@@ -1,0 +1,11 @@
+.view-projects-button {
+  color: white;
+  width: var(--tile-width);
+  border-radius: var(--border-radius);
+  margin: var(--padding-small);
+  background-color: var(--secondary-color);
+}
+
+.view-projects-button:hover {
+  background-color: #4879f7;
+}
