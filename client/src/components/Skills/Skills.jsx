@@ -3,7 +3,7 @@ import "../Skills/Skills.css"
 const Skills = () => {
   return (
     <div className="tile">
-      <p><strong>Key Skills</strong></p>
+      <strong>Key Skills</strong>
       <div className="d-flex flex-wrap">
         <span className="skill">React</span>
         <span className="skill">JavaScript</span>
