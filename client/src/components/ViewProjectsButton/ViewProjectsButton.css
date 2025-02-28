@@ -4,6 +4,7 @@
   border-radius: var(--border-radius);
   margin: var(--padding-small);
   background-color: var(--secondary-color);
+  cursor: pointer;
 }
 
 .view-projects-button:hover {

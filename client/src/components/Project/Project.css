@@ -1,0 +1,8 @@
+.project-container img {
+  object-fit: cover;
+  max-height: 200px;
+}
+
+.skills-container .skill{
+  font-size: 12px;
+}
