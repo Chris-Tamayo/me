@@ -3,6 +3,10 @@
   max-height: 200px;
 }
 
+.project-container .project-desc {
+  font-size: 14px;
+}
+
 .skills-container .skill{
   font-size: 12px;
 }
