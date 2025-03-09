@@ -36,6 +36,26 @@
   border-radius: 10px;
 }
 
+.home-container {
+  min-height: 95vh;
+}
+
 .projects-container {
   color: white;
+}
+
+@media (max-width: 1130px) {
+  .tile {
+    width: 60vw;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    padding: var(--padding-medium);
+    margin: var(--padding-small);
+  }
+
+  .tile-container {
+    width: 60vw;
+    border-radius: 10px;
+  }
 }

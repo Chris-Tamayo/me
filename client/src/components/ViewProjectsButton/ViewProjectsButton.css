@@ -10,3 +10,10 @@
 .view-projects-button:hover {
   background-color: #4879f7;
 }
+
+@media (max-width: 1130px) {
+  .view-projects-button {
+    width: 60vw;
+    height: 3rem;
+  }
+}

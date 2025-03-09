@@ -15,9 +15,9 @@ function App() {
     <Router basename="/me">  {/* Add basename here */}
       <Routes>
         <Route path="/" element={
-          <div className="d-flex justify-content-center align-items-center w-100 h-100 position-relative">
+          <div className="d-flex justify-content-center align-items-center w-100 position-relative home-container m-2">
             <ParticlesBackground />
-            <div className="d-flex flex-row flex-wrap" style={{ zIndex: 1 }}>
+            <div className="d-flex flex-row flex-wrap justify-content-center" style={{ zIndex: 1 }}>
               <div className="d-flex flex-column">
                 <Intro />
                 <Contact />
