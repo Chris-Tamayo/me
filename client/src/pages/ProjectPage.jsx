@@ -3,11 +3,16 @@ import pt from "../assets/pt.png"
 import gem from "../assets/gem-edu.png";
 import smartwalk from "../assets/smartwalk.png";
 import "../pages/ProjectPage.css";
+import { useNavigate } from "react-router-dom";
 
 const ProjectsPage = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="d-flex flex-column projects-container">
-      <p className="px-2">&lt;Home</p>
+      <p className="px-2 home-button" onClick={() => navigate("/")}>
+        &lt;&#9;<span className="home-span">Home</span>
+      </p>
       <div className="d-flex justify-content-center align-items-center flex-wrap">
         <Project 
           name="Potenti"
