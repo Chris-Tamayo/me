@@ -13,19 +13,18 @@ a {
 }
 
 .headshot-tile {
-  width: 0%;
+  max-width: 48%;
   flex-grow: 1;
-  aspect-ratio: 1 / 1;
   border-radius: var(--border-radius);
   background-color: var(--secondary-background-color);
   margin: var(--padding-small);
 }
 
 .headshot-tile img {
-  width: 100%;          /* Make image fill container */
-  height: 100%;         /* Make image fill container */
-  object-fit: cover;    /* Crop the image to fit the div */
-  border-radius: inherit; /* Ensures image follows parent's border-radius */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
 }
 
 .contact-logo {
@@ -37,4 +36,15 @@ a {
 
 .contact-tile:hover {
   background-color: #9bb5f6;
+}
+
+@media (max-width: 1135px) {
+  .contact-tile {
+    width: 95%;
+  }
+
+  .contact-logo {
+    width: 40%;
+    height: 40%;
+  }
 }

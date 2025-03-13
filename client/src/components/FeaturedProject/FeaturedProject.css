@@ -6,3 +6,9 @@
 .project-desc {
   color: var(--tertiary-color);
 }
+
+@media (max-width: 1135px) {
+  .project-img {
+    max-height: 300px;
+  }
+}
