@@ -21,14 +21,14 @@ const ProjectsPage = () => {
           skills={["JavaScript", "HTML", "CSS", "Node.js", "MongoDB"]}
         />
         <Project 
-          name="Gem.edu, Google's Gemini API Contest"
+          name="Gem.edu - Google's Gemini API Contest"
           description="AI-Powered academic advisor and tutor"
           image={gem}
           skills={["React.js", "JavaScript", "HTML", "CSS"]}
         />
         <Project 
-          name="SmartWalk, INRIX Hackathon"
-          description="Route planner that suggests the safest walking paths based on crime data"
+          name="SmartWalk - INRIX Hackathon"
+          description="Route planner that suggests the safest walking paths based on crime data. For INRIX hackathon."
           image={smartwalk}
           skills={["JavaScript", "HTML", "CSS"]}
         />

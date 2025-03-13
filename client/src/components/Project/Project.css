@@ -7,6 +7,10 @@
   font-size: 14px;
 }
 
+.project-container .material-symbols-outlined {
+  font-size: 16px;
+}
+
 .skills-container .skill{
   font-size: 12px;
 }

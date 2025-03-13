@@ -11,9 +11,27 @@
   background-color: #4879f7;
 }
 
+.view-projects-button .material-symbols-outlined {
+  font-size: 20px;
+}
+
 @media (max-width: 1135px) {
   .view-projects-button {
     width: 60vw;
+    height: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .view-projects-button {
+    width: 80vw;
+    height: 3rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .view-projects-button {
+    width: 90vw;
     height: 3rem;
   }
 }

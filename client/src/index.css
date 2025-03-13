@@ -59,3 +59,35 @@
     border-radius: 10px;
   }
 }
+
+@media (max-width: 768px) {
+  .tile {
+    width: 80vw;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    padding: var(--padding-medium);
+    margin: var(--padding-small);
+  }
+
+  .tile-container {
+    width: 80vw;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 425px) {
+  .tile {
+    width: 90vw;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    padding: var(--padding-medium);
+    margin: var(--padding-small);
+  }
+
+  .tile-container {
+    width: 90vw;
+    border-radius: 10px;
+  }
+}
