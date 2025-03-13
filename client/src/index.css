@@ -38,6 +38,7 @@
 
 .home-container {
   min-height: 95vh;
+  overflow: hidden;
 }
 
 .projects-container {
