@@ -19,18 +19,21 @@ const ProjectsPage = () => {
           description="Motion tracking PT recovery website"
           image={pt}
           skills={["JavaScript", "HTML", "CSS", "Node.js", "MongoDB"]}
+          link="https://github.com/liamahearn/PT-Wearable"
         />
         <Project 
-          name="Gem.edu - Google's Gemini API Contest"
+          name="Gem.edu - Google's Gemini Hackathon"
           description="AI-Powered academic advisor and tutor"
           image={gem}
           skills={["React.js", "JavaScript", "HTML", "CSS"]}
+          link="https://www.youtube.com/watch?v=BVtw-ZKlJEM"
         />
         <Project 
           name="SmartWalk - INRIX Hackathon"
           description="Route planner that suggests the safest walking paths based on crime data. For INRIX hackathon."
           image={smartwalk}
           skills={["JavaScript", "HTML", "CSS"]}
+          link="https://devpost.com/software/safewalk-0yf4ue?ref_content=my-projects-tab&ref_feature=my_projects"
         />
       </div>
       

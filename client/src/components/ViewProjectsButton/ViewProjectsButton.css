@@ -7,6 +7,10 @@
   cursor: pointer;
 }
 
+.view-projects-button {
+  transition: background-color 0.2s ease-in-out;
+}
+
 .view-projects-button:hover {
   background-color: #4879f7;
 }

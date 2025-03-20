@@ -11,6 +11,13 @@
   cursor: pointer;
 }
 
-.home-button:hover .home-span {
+.home-button .home-span {
   text-decoration: underline;
+  text-decoration-color: transparent;
+  text-underline-offset: 4px;
+  transition: text-decoration-color 0.2s ease-in-out;
+}
+
+.home-button:hover .home-span {
+  text-decoration-color: inherit;
 }

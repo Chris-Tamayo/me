@@ -11,6 +11,14 @@
   font-size: 16px;
 }
 
+.project-name {
+  transition: color 0.2s ease-in-out;
+}
+
+.project-name:hover {
+  color: var(--secondary-color);
+}
+
 .skills-container .skill{
   font-size: 12px;
 }
