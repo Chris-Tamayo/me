@@ -4,7 +4,9 @@
 }
 
 .home-button {
+  width: var(--tile-width);
   font-size: 16px;
+  margin: var(--padding-small);
 }
 
 .home-button:hover {
@@ -20,4 +22,24 @@
 
 .home-button:hover .home-span {
   text-decoration-color: inherit;
+}
+
+@media (max-width: 1135px) {
+  .home-button {
+    margin: auto;
+    width: 60vw;
+    height: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-button {
+    width: 80vw;
+  }
+}
+
+@media (max-width: 425px) {
+  .home-button {
+    width: 95vw;
+  }
 }
