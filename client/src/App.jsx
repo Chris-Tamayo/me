@@ -35,7 +35,7 @@ function App() {
           </div>
         } />
         <Route path="/projects" element={
-          <div className="d-flex justify-content-center align-items-center w-100 h-100 position-relative">
+          <div className="d-flex justify-content-center align-items-center w-100 position-relative home-container m-2">
             <ParticlesBackground />
             <ProjectsPage />
           </div>

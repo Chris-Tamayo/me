@@ -11,7 +11,7 @@ const ProjectsPage = () => {
   return (
     <div className="d-flex flex-column projects-container">
       <p className="px-2 home-button" onClick={() => navigate("/")}>
-        &lt;&#9;<span className="home-span">Home</span>
+        <strong>&lt;&#9;<span className="home-span">Home</span></strong>
       </p>
       <div className="d-flex justify-content-center align-items-center flex-wrap">
         <Project 

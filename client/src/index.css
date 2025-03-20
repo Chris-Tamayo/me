@@ -79,7 +79,7 @@
 
 @media (max-width: 425px) {
   .tile {
-    width: 90vw;
+    width: 95vw;
     color: black;
     background-color: white;
     border-radius: 10px;
@@ -88,7 +88,12 @@
   }
 
   .tile-container {
-    width: 90vw;
+    width: 95vw;
     border-radius: 10px;
+  }
+
+  .home-container {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
   }
 }
