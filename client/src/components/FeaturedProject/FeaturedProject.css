@@ -7,6 +7,20 @@
   color: var(--tertiary-color);
 }
 
+.featured-project-name {
+  font-size: 14px;
+  transition: color 0.2s ease-in-out;
+}
+
+.featured-project-name:hover {
+  color: var(--secondary-color);
+}
+
+.featured-project .material-symbols-outlined {
+  font-size: 14px;
+}
+
+
 @media (max-width: 1135px) {
   .project-img {
     max-height: 300px;
